@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DBCBBC;
+    margin: 15vh;
+    border-radius: 16px;
+    padding: 5%;
+    border: 2px solid #725138;
+
+    font-family: poppins;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    height: 40vh;
+    border-radius: 50%;
+    border: 2px solid #725138;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+header h1{
+    padding-top: 20px;
+    font-size: 6vh;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav button{
+    font-size: 4vh;
+    color: #DBCBBC;
+    padding: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 7vh;
+    border-radius: 12px;
+    border: none;
+    background-color: #5D7748;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contact-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.contact-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7vh;
+    margin-right: 7vh;
+    font-size: 3vh;
+}
+.contact-list img{
+    height: 5vh;    
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+  }
+hr {
+    width: 87%;
+    height: 2px;
+    background-color: #725138;
+    border: none;
+    margin: 20px auto;
+  }
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main section{
+    width: 40%;
+    
+}
+.right{
+    border-right: 3px solid #725138;
+    padding-right: 19vh;
+    height: 50%;
+}
+main section div h2{
+    font-size: 5vh;
+}
+.sobretitulo{
+    font-size: 5vh;
+}
+
+.sobre{
+    margin-top: 3vh;
+}
+.formacao{
+    margin-top: 3vh;
+}
+.experiencia{
+    margin-top: 3vh;
+}
+
+section button{
+    font-size: 3vh;
+    color: #DBCBBC;
+    margin: 0.5%;
+    border-radius: 12px;
+    border: none;
+    background-color: #5D7748;
+    padding: 10px;   
+}
+.desenvolvedor{
+    margin-top: 3vh;
+
+}
+
+.desenvolvedor h3{
+    margin-bottom: 1vh;
+}
+.suporte {
+    margin-top: 3vh;
+}
+.suporte h3{
+    margin-bottom: 1vh;
+}
+.linguagens{
+    margin-top: 3vh;
+}
+.linguagens h3{
+    margin-bottom: 1vh;
+}
+.ferramentas{
+    margin-top: 3vh;
+}
+.ferramentas h3{
+    margin-bottom: 1vh;
+}
